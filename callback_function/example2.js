@@ -1,6 +1,6 @@
 function delayedGreeting(name, callback) {
     setTimeout(() => {
-        console.log("Hello, " + name);
+        console.log("GoogMorning" + name);
         callback();
     }, 2000);
 }
@@ -9,4 +9,4 @@ function afterGreeting() {
     console.log("This runs after greeting.");
 }
 
-delayedGreeting("Bob", afterGreeting);
+delayedGreeting("Chetan", afterGreeting);
